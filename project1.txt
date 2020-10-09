@@ -1,0 +1,1269 @@
+errorCode(
+	code:1
+	description:'Communication error with attachment control unit (D791-1)',
+	limitation:'Attachment functions not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D791-1',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:2
+	description:'Communication error with Control unit, attachment option (D791-2)',
+	limitation:'Levelling, tilt, overheight extension not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D791-2',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:3
+	description:'Communication error with Control unit, attachment left jack pair (D791-3)',
+	limitation:'Left side of bottom lift not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D791-3',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:4
+	description:'Communication error with Control unit, attachment right jack pair (D791-4)',
+	limitation:'Right side of bottom lift not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D791-4',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:5
+	description:'Communication error with Control unit, frame rear (D797-R)',
+	limitation:'Lighting rear, hydraulic oil cooling, overload system, extension not working',
+	action:'Use diagnostic menu to find incorrect segment.',
+	concom:'D797-R',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:6
+	description:'Communication error with Control unit, frame front (D797-F)',
+	limitation:'Front lighting, lift, extension, brake lights, brake cooling not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D797-F',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:7
+	description:'Communication error with Control unit, frame option (D797-O)',
+	limitation:'Sliding cab, support jacks, joystick control miniwheel, cab lift and cab tilt not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D797-O',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:8
+	description:'Communication error with KID control unit (D795)',
+	limitation:'Controls in steering wheel panel and display not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D795',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:9
+	description:'Communication error with Control unit, cab option (D790-3)',
+	limitation:'Mini-wheel or joystick control not working',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'D790-3',
+	diagnose:'CAN/POWER, menu 2',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:11
+	description:'Wiring fault CAN bus segment 1',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:12
+	description:'Wiring fault CAN bus segment 2',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:13
+	description:'Wiring fault CAN bus segment 3',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:14
+	description:'Wiring fault CAN bus segment 5',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:15
+	description:'Wiring fault CAN bus segment 4',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:16
+	description:'Wiring fault CAN bus segment 6',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:17
+	description:'Wiring fault CAN bus segment 7',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:18
+	description:'Wiring fault CAN bus segment 8',
+	limitation:'No limitation',
+	action:'Use diagnostic menu to find incorrect segment',
+	concom:'Varies depending on machine configuration',
+	diagnose:'CAN/POWER, menu 1 and 21',
+	group:'11.6.2 Redundant CAN-bus',
+),
+
+errorCode(
+	code:20
+	description:'Accelerator pedal (B690) not calibrated',
+	limitation:'Poor sensitivity in accelerator pedal',
+	action:'Calibrate the gas pedal, see the section 8 Control system, group 8.5.2.3 Calibrate DRIVE-TRAIN',
+	concom:'D790-1/K6:11 – B690',
+	diagnose:'CALIBRATION: DRIVETRAIN, menu 1 and 2',
+	group:'1. Engine',
+),
+
+errorCode(
+	code:21
+	description:'Communication error with transmission control unit (D793)',
+	limitation:'Gear selection not working',
+	action:'Use diagnostic menu to check communication. Check the wiring between cab control unit (D790-1) and transmission control unit (D793)',
+	concom:'D790-1/K13:1 – D793/M2 D790-1/K13:2 – D793/L2',
+	diagnose:'CAN/POWER, menu 3',
+	group:'11.6.3 CANbus drivetrain',
+),
+
+errorCode(
+	code:22
+	description:'Communication error with Control unit engine (D794)',
+	limitation:'Engine does not react to commands from cab',
+	action:'Use diagnostic menu to check communication. Check the wiring between cab control unit (D790-1) and engine control unit (D794)',
+	concom:'Volvo: D790- 1/K13:1, K13:2 – D794/ 2, 1 Cummins: D790-1/ K13:1, K13:2 – D794/46, 37',
+	diagnose:'CAN/POWER, menu 3',
+	group:'11.6.3 CANbus drivetrain',
+),
+
+errorCode(
+	code:23
+	description:'Setup file cannot be read in cab control unit (D790-1)',
+	limitation:'No controls working in cab',
+	action:'Contact Cargotec support',
+	concom:'D790-1',
+	diagnose:'-',
+	group:'11.5.3.1 Control unit cab',
+),
+
+errorCode(
+	code:24
+	description:'Electric power feed to cab fan less than 18 V',
+	limitation:'Cab fan not working',
+	action:'Check fuse F58-5/3',
+	concom:'D790-1/K2:8 – 58-5/3:2',
+	diagnose:'-',
+	group:'9.4.3 Cab fan',
+),
+
+errorCode(
+	code:25
+	description:'Interference during software download. Buffer for error codes from Control unit, engine (D794), active error code when downloading',
+	limitation:'Error code stored in engine control unit (D794)',
+	action:'Switch the ignition off and on.Repeat software download',
+	concom:'D794',
+	diagnose:'ENGINE, menu 8',
+	group:'11.5.3.10 Control unit engine',
+),
+
+errorCode(
+	code:26
+	description:'Interference during software download. Buffer for error codes from Control unit, engine (D794), active error code when downloading',
+	limitation:'Error code stored in engine control unit (D794)',
+	action:'Switch the ignition off and on.Repeat software download',
+	concom:'D794',
+	diagnose:'ENGINE, menu 8',
+	group:'11.5.3.10 Control unit engine',
+),
+
+errorCode(
+	code:27
+	description:'Interference during software download. Buffer for error codes from Control unit, engine (D794), active error code when downloading',
+	limitation:'Error code stored in engine control unit (D794)',
+	action:'Switch the ignition off and on.Repeat software download',
+	concom:'D794',
+	diagnose:'ENGINE, menu 8',
+	group:'11.5.3.10 Control unit engine',
+),
+
+errorCode(
+	code:28
+	description:'Interference during software download. Buffer for error codes from Control unit, engine (D794), active error code when downloading',
+	limitation:'Error code stored in engine control unit (D794)',
+	action:'Switch the ignition off and on.Repeat software download',
+	concom:'D794',
+	diagnose:'ENGINE, menu 8',
+	group:'11.5.3.10 Control unit engine',
+),
+
+errorCode(
+	code:29
+	description:'Interference during software download. Buffer for error codes from Control unit, engine (D794), active error code when downloading',
+	limitation:'Error code stored in engine control unit (D794)',
+	action:'Switch the ignition off and on.Repeat software download',
+	concom:'D794',
+	diagnose:'ENGINE, menu 8',
+	group:'11.5.3.10 Control unit engine',
+),
+
+errorCode(
+	code:30
+	description:'Interference during software download. Buffer for error codes from Control unit, engine (D794), active error code when downloading',
+	limitation:'Error code stored in engine control unit (D794)',
+	action:'Switch the ignition off and on.Repeat software download',
+	concom:'D794',
+	diagnose:'ENGINE, menu 8',
+	group:'11.5.3.10 Control unit engine',
+),
+
+errorCode(
+	code:31
+	description:'Incorrect power supply to cab control unit (D790-1). Voltage under 18 V or over 32 V',
+	limitation:'Control in cab not working',
+	action:'Check fuse F58-5/1. Check cabling between the control unit and the component with diagnostic menu. Check the control unit',
+	concom:'D790-1/K1:2, K1:3, K1:4 – F58-5/1:1, 1:2',
+	diagnose:'CAN/POWER, menu 6',
+	group:'11.5.1.3 Ignition voltage (15)',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),
+
+errorCode(
+	code:
+	description:'',
+	limitation:'',
+	action:'',
+	concom:'',
+	diagnose:'',
+	group:'',
+),	
